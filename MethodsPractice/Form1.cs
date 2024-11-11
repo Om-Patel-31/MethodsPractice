@@ -89,11 +89,11 @@ namespace MethodsPractice
         /// he largest value is 7
         public void MaxVal()
         {
-            int num1 = Convert.ToInt16(q5Num1Input.Text);
-            int num2 = Convert.ToInt16(q5Num2Input.Text);
-            int num3 = Convert.ToInt16(q5Num3Input.Text);
+            double num1 = Convert.ToDouble(q5Num1Input.Text);
+            double num2 = Convert.ToDouble(q5Num2Input.Text);
+            double num3 = Convert.ToDouble(q5Num3Input.Text);
 
-            int maxval;
+            double maxval;
 
             if ((num1 > num2) && (num2 > num3))
             {
